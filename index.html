@@ -15,6 +15,19 @@
    <link rel="stylesheet" href="./assets/css/index.css">
    <link rel="stylesheet" href="./assets/css/media_query.css">
 
+   <!-- Jquery  -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+   <!-- Owl Carousel CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+   <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+
    <title>HUBE-com</title>
 </head>
 
@@ -67,11 +80,58 @@
 
    <section class="header container my-3 d-sm-flex justify-content-sm-between">
 
-      <div class="nav-home d-sm-flex align-items-sm-center">
-         <a class="abc-link text-decoration-none text-black" href="#">Home</a>
-         <a class="abc-link text-decoration-none text-black mx-4" href="#">Company Profile</a>
-         <a class="abc-link text-decoration-none text-black" href="#">Services</a>
-      </div>
+      <nav class="navbar navbar-default" role="navigation">
+
+         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+
+               <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Three Column <b class="caret"></b></a>
+                  <ul class="dropdown-menu columns-3">
+                     <div class="row">
+                        <div class="col-sm-4">
+                           <ul class="multi-column-dropdown">
+                              <li><a href="#">Action</a></li>
+                              <li><a href="#">Another action</a></li>
+                              <li><a href="#">Something else here</a></li>
+                              <li class="divider"></li>
+                              <li><a href="#">Separated link</a></li>
+                              <li class="divider"></li>
+                              <li><a href="#">One more separated link</a></li>
+                           </ul>
+                        </div>
+                        <div class="col-sm-4">
+                           <ul class="multi-column-dropdown">
+                              <li><a href="#">Action</a></li>
+                              <li><a href="#">Another action</a></li>
+                              <li><a href="#">Something else here</a></li>
+                              <li class="divider"></li>
+                              <li><a href="#">Separated link</a></li>
+                              <li class="divider"></li>
+                              <li><a href="#">One more separated link</a></li>
+                           </ul>
+                        </div>
+                        <div class="col-sm-4">
+                           <ul class="multi-column-dropdown">
+                              <li><a href="#">Action</a></li>
+                              <li><a href="#">Another action</a></li>
+                              <li><a href="#">Something else here</a></li>
+                              <li class="divider"></li>
+                              <li><a href="#">Separated link</a></li>
+                              <li class="divider"></li>
+                              <li><a href="#">One more separated link</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </ul>
+               </li>
+               <li><a href="#">Link</a></li>
+            </ul>
+         </div>
+
+      </nav>
+      </nav>
+
 
       <div class="row luxury ms-0 mt-2 d-inline-flex d-sm-none">
          <a class="btn btn-2 " href="#">Get a Quote</a>
@@ -83,10 +143,147 @@
 
    </section>
 
+
+   <!-- ============================================================================= -->
+   <!------------------------- Slider Section  ------------------------------->
+   <header>
+      <div class="owl-carousel owl-theme">
+         <div class="item">
+            <img src="./assets/images/01_see.jpeg" alt="images not found" />
+            <div class="cover">
+               <div class="container">
+                  <div class="header-content">
+                     <div class="line"></div>
+                     <h1>See Freight</h1>
+                     <p class="text-wrap slider-para">
+                        With our shipping expertise get your cargo delivered in UK &
+                        Europe with our Sea Freight services.We cater LCL & FCL sea
+                        freight requirements and provide competitive rates and
+                        dedicated support.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="item">
+            <img src="./assets/images/02_air.jpeg" alt="images not found" />
+            <div class="cover">
+               <div class="container">
+                  <div class="header-content">
+                     <div class="line animated bounceInLeft"></div>
+
+                     <h1>Air Freight</h1>
+                     <p class="text-wrap slider-para">
+                        Express LHR Air Freight, 7 days a week reliable service and
+                        range of competitive price options with same day customs
+                        clearance delivery and handover.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="item">
+            <img src="./assets/images/03_rail.jpeg" alt="images not found" />
+            <div class="cover">
+               <div class="container">
+                  <div class="header-content">
+                     <div class="line animated bounceInLeft"></div>
+
+                     <h1>Rail Freight</h1>
+                     <p class="text-wrap slider-para">
+                        Safely Packed, locked and Tracked at every stage of their road
+                        and rail journey.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="item">
+            <img src="./assets/images/04_road.jpeg" alt="images not found" />
+            <div class="cover">
+               <div class="container">
+                  <div class="header-content">
+                     <div class="line animated bounceInLeft"></div>
+
+                     <h1>Road Freight</h1>
+                     <p class="text-wrap slider-para">
+                        Combining transport execution and transport management services to meet all your Land Freight
+                        needs.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="item">
+            <img src="./assets/images/05_amazon.jpeg" alt="images not found" />
+            <div class="cover">
+               <div class="container">
+                  <div class="header-content">
+                     <div class="line animated bounceInLeft"></div>
+
+                     <h1>Amazon FBA Delivery</h1>
+                     <p class="text-wrap slider-para">
+                        Hassle free FBA deliveries for e-Commerce sellers.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+
+
+   <!-- ============================================================================== -->
+   <!-------------------------- Shiping Service Section  -------------------->
+   <div class="container my-3">
+      <div class="row justify-content-lg-between shiping-div" style="align-items: start !important;">
+
+         <div class="col-lg-3 col-10 mb-4 mb-lg-0 shiping-content abc-services">
+            <h1 class="text-center mb-3" style="color: #0073B1;">Competitive & Timely Shipping Services</h1>
+            <div class="my-border mb-3 mx-auto" style="color: #3e4073"></div>
+            <p class='text-start'>With Years of Experience we are Leading with Technology and a highly skilled team to ensure our customers are at comfort while their shipments reach their destination.</p>
+            <p class="invisible">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, unde corporis hello avvdywd fe</p>
+         </div>
+
+         <div class="col-lg-5 col-10 mb-4 mb-lg-0 align-self-center ifram-video">
+            <iframe width='375' height="375" src="https://www.youtube.com/embed/4-QU7WiVxh8"
+               title="What is Logistics Management? Meaning, Importance, Basic Functions &amp; Strategies | AIMS UK"
+               frameborder="0"
+               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+               allowfullscreen></iframe>
+         </div>
+
+         <div class="col-lg-3 col-10 mb-4 mb-lg-0 shiping-content">
+            <h1 class="text-center mb-3" style="color: #0073B1;">Strong Cross Border Shipment</h1>
+            <div class="my-border mb-3 mx-auto" style="color: #3e4073"></div>
+            <p class="text-start">Clearance until final mile delivery between Asia and Europe.</p>
+            <p class="text-start">Solid Cross Border Partnership with China, Freight arrangement and smooth customs
+               clearance transaction.</p>
+            <p class="text-start">We excel and distinguish with our speedy final mile delivery solution along with full
+               visibility of the shipment start to end with our IT solution.</p>
+         </div>
+
+      </div>
+   </div>
+
+
+
+
+
+
+   <!-- ============================================================================== -->
+
+
+
    <!-- Bootstrap Bundle and Popper  -->
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
    </script>
+
+   <!-- Owl Carousel JS  -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
    <!-- Custom JS  -->
    <script src="./assets/js/index.js"></script>
