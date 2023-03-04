@@ -10,6 +10,11 @@
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
+   <!-- Fontawsome CSS  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+
    <!-- Custom CSS  -->
    <link rel="shortcut icon" href="./assets/images/hub-ecom-logo.png" type="image/x-icon">
    <link rel="stylesheet" href="./assets/css/index.css">
@@ -28,25 +33,13 @@
       integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
       crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+
+
    <title>HUBE-com</title>
 </head>
 
 <body>
-
-   <!-- <section class="header container my-3 d-flex justify-content-between">
-      <div>
-         <a href="/index.html">
-            <img src="./assets/images/hub-ecom-logo.png" alt="" class="logo-img">
-         </a>
-      </div>
-
-      <div class="d-flex align-items-center">
-         <a class="text-decoration-none text-black" href="#">My Hub</a>
-         <a class="text-decoration-none text-black mx-4" href="#">Our Offices</a>
-         <a class="text-decoration-none text-black" href="#">Contact us</a>
-      </div>
-   </section> -->
-
+   <div class="first-header">
    <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid">
          <a class="navbar-brand" href="#"><img src="./assets/images/hub-ecom-logo.png" alt="" class="logo-img"></a>
@@ -77,67 +70,79 @@
          </div>
       </div>
    </nav>
+   </div>
 
-   <section class="header container my-3 d-sm-flex justify-content-sm-between">
+   
+   <!-- ============================================================================== -->
+   
+   <section class="header container my-3 d-sm-flex justify-content-sm-between">   
 
-      <nav class="navbar navbar-default" role="navigation">
+      <nav class="navbar navbar-expand-lg d-none d-lg-flex">
+         <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                     <a class="nav-link" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">Company Profile</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Services
+                     </a>
+                     <div class="dropdown-menu">
+                        <ul class="me-5" style="width: 33.33%;">
+                           <p class="text-nowrap">Freight Forwarding</p>
+                           <li><a class="dropdown-item" href="#">Air Freight</a></li>
+                           <li><a class="dropdown-item" href="#">Sea Freight</a></li>
+                           <li><a class="dropdown-item" href="#">Railway & Road Freight</a></li>
+                           <li><a class="dropdown-item" href="#">Import Services</a></li>
+                           <li><a class="dropdown-item" href="#">Project Management</a></li>
+                           <li><a class="dropdown-item" href="#">Courier Services</a></li>
+                        </ul>
 
-         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
+                        <ul class="me-5" style="width: 33.33%;">
+                           <p class="text-nowrap">E-commerce</p>
+                           <li><a class="dropdown-item" href="#">Cross Border E-Commerce</a></li>
+                           <li><a class="dropdown-item" href="#">Fulfilment by Amazon - FBA</a></li>
+                           <li><a class="dropdown-item text-wrap" href="#">Import Post & Courier Cross Border
+                                 E-commerce</a></li>
+                        </ul>
 
-               <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Three Column <b class="caret"></b></a>
-                  <ul class="dropdown-menu columns-3">
-                     <div class="row">
-                        <div class="col-sm-4">
-                           <ul class="multi-column-dropdown">
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Another action</a></li>
-                              <li><a href="#">Something else here</a></li>
-                              <li class="divider"></li>
-                              <li><a href="#">Separated link</a></li>
-                              <li class="divider"></li>
-                              <li><a href="#">One more separated link</a></li>
-                           </ul>
-                        </div>
-                        <div class="col-sm-4">
-                           <ul class="multi-column-dropdown">
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Another action</a></li>
-                              <li><a href="#">Something else here</a></li>
-                              <li class="divider"></li>
-                              <li><a href="#">Separated link</a></li>
-                              <li class="divider"></li>
-                              <li><a href="#">One more separated link</a></li>
-                           </ul>
-                        </div>
-                        <div class="col-sm-4">
-                           <ul class="multi-column-dropdown">
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Another action</a></li>
-                              <li><a href="#">Something else here</a></li>
-                              <li class="divider"></li>
-                              <li><a href="#">Separated link</a></li>
-                              <li class="divider"></li>
-                              <li><a href="#">One more separated link</a></li>
-                           </ul>
-                        </div>
+                        <ul class="" style="width: 33.33%;">
+                           <p class="text-nowrap">Logistics & Warehousing</p>
+                           <li><a class="dropdown-item" href="#">Warehouse Services</a></li>
+                           <li><a class="dropdown-item" href="#">Value Added Logistics</a></li>
+                           <li><a class="dropdown-item" href="#">My HUBSL</a></li>
+                        </ul>
                      </div>
-                  </ul>
-               </li>
-               <li><a href="#">Link</a></li>
-            </ul>
+                  </li>
+               </ul>
+            </div>
          </div>
-
-      </nav>
       </nav>
 
+      <nav class="navbar navbar-expand-lg d-flex d-lg-none">
+         <div class="container-fluid">
+            <div class="">
+               <ul class="navbar-nav me-auto mb-2 mb-lg-0 flex-row">
+                  <li class="nav-item me-5">
+                     <a class="nav-link " aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item me-5">
+                     <a class="nav-link" href="#">Company Profile</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">Services</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
 
-      <div class="row luxury ms-0 mt-2 d-inline-flex d-sm-none">
-         <a class="btn btn-2 " href="#">Get a Quote</a>
-      </div>
-
-      <div class="row luxury d-none d-sm-flex">
+      <div class="row luxury ms-0 ms-sm-auto d-flex">
          <a class="btn btn-2 " href="#">Get a Quote</a>
       </div>
 
@@ -241,8 +246,10 @@
          <div class="col-lg-3 col-10 mb-4 mb-lg-0 shiping-content abc-services">
             <h1 class="text-center mb-3" style="color: #0073B1;">Competitive & Timely Shipping Services</h1>
             <div class="my-border mb-3 mx-auto" style="color: #3e4073"></div>
-            <p class='text-start'>With Years of Experience we are Leading with Technology and a highly skilled team to ensure our customers are at comfort while their shipments reach their destination.</p>
-            <p class="invisible">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, unde corporis hello avvdywd fe</p>
+            <p class='text-start'>With Years of Experience we are Leading with Technology and a highly skilled team to
+               ensure our customers are at comfort while their shipments reach their destination.</p>
+            <p class="invisible">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, unde corporis hello
+               avvdywd fe</p>
          </div>
 
          <div class="col-lg-5 col-10 mb-4 mb-lg-0 align-self-center ifram-video">
@@ -266,12 +273,327 @@
       </div>
    </div>
 
+   <!-- ============================================================================== -->
+   <!------------------------ Express & Economical Service Section  -------------------->
+
+   <section class="economical_service d-flex justify-content-center align-item-center h-100 min-vh-100 pb-5"
+      style="background-color: #F0F8FF;">
+      <div class="container">
+
+         <div class="text-center pt-4">
+            <h1>Express and Economical Services</h1>
+            <div class="my-border mb-3 mx-auto" style="color: #3e4073; width: 7%;"></div>
+         </div>
+
+         <div class="row mt-5">
+            <div class="col-lg-4 col-md-6 col-sm-6 col-12 abc1 mt-5">
+               <div class="s_content h-100 p-4 text-center">
+                  <img src="./assets/images/air_eco.jpg" class="" alt="">
+                  <div class="icon-img d-flex flex-row justify-content-center mt-4">
+                     <img src="./assets/images/air_icon.png" alt="">
+                     <h5 class="ms-3 mb-0 align-self-center">Air Freight</h5>
+                  </div>
+                  <p class="mt-4 text-start">Express LHR Air Freight, 7 days a week reliable service and range of
+                     competitive price options with same day customs clearance delivery and handover.</p>
+               </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6 col-12 abc1 mt-5">
+               <div class="s_content h-100 p-4 text-center">
+                  <img src="./assets/images/sea_eco.jpg" class="" alt="">
+                  <div class="icon-img d-flex flex-row justify-content-center mt-4">
+                     <img src="./assets/images/ship_icon.png" alt="">
+                     <h5 class="ms-3 mb-0 align-self-center">Sea Freight</h5>
+                  </div>
+                  <p class="mt-4 text-start">With our shipping expertise get your cargo delivered in UK & Europe with
+                     our Sea Freight services. We cater LCL & FCL sea freight requirements.</p>
+               </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6 col-12 abc1 mt-5">
+               <div class="s_content h-100 p-4 text-center">
+                  <img src="./assets/images/rail_eco.jpg" class="" alt="">
+                  <div class="icon-img d-flex flex-row justify-content-center mt-4">
+                     <img src="./assets/images/train_icon.png" alt="">
+                     <h5 class="ms-3 mb-0 align-self-center">Railway & Road Freight</h5>
+                  </div>
+                  <p class="mt-4 text-start">Combining transport execution and transport management services to meet all
+                     your Land Freight needs. Road Freight Transportation is a widely used method.</p>
+               </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6 col-12 abc1 mt-5">
+               <div class="s_content h-100 p-4 text-center">
+                  <img src="./assets/images/amazon_eco.jpg" class="" alt="">
+                  <div class="icon-img d-flex flex-row justify-content-center mt-4">
+                     <img src="./assets/images/amazon_icon.png" alt="">
+                     <h5 class="ms-3 mb-0 align-self-center">Fulfilment by Amazon</h5>
+                  </div>
+                  <p class="mt-4 text-start">HUB E-Com has a dedicated and experienced FBA team with a developed
+                     shipping and costing plan.</p>
+               </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6 col-12 abc1 mt-5">
+               <div class="s_content h-100 p-4 text-center">
+                  <img src="./assets/images/warehouse_eco.jpg" class="" alt="">
+                  <div class="icon-img d-flex flex-row justify-content-center mt-4">
+                     <img src="./assets/images/warehouse_icon.png" alt="">
+                     <h5 class="ms-3 mb-0 align-self-center">Logistics & Warehousing</h5>
+                  </div>
+                  <p class="mt-4 text-start">HUB E-Com Logistics has the capability to
+                     reduce your overall supply chain costs by managing your stock in Asia.</p>
+               </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6 col-12 abc1 mt-5">
+               <div class="s_content h-100 p-4 text-center">
+                  <img src="./assets/images/hubsl_eco.jpg" class="" alt="">
+                  <div class="icon-img d-flex flex-row justify-content-center mt-4">
+                     <img src="./assets/images/hubsl_icon.png" alt="">
+                     <h5 class="ms-3 mb-0 align-self-center">My HUBSL</h5>
+                  </div>
+                  <p class="mt-4 text-start">HUB E-Com has an extensive partner network to offer a multimodal door-door
+                     solution for any kind of project cargo.</p>
+               </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6 col-12 abc1 mt-5">
+               <div class="s_content h-100 p-4 text-center">
+                  <img src="./assets/images/e-com_eco.jpg" class="" alt="">
+                  <div class="icon-img d-flex flex-row justify-content-center mt-4">
+                     <img src="./assets/images/e-com_icon.png" alt="">
+                     <h5 class="ms-3 mb-0 align-self-center">Cross Border E-Commerce</h5>
+                  </div>
+                  <p class="mt-4 text-start">Our Cross-Border Logistics(CBEL) is a professional team dedicated to the
+                     global E-commerce trade.</p>
+               </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6 col-12 abc1 mt-5">
+               <div class="s_content h-100 p-4 text-center">
+                  <img src="./assets/images/b2c_eco.jpg" class="" alt="">
+                  <div class="icon-img d-flex flex-row justify-content-center mt-4">
+                     <img src="./assets/images/amazon_icon.png" alt="">
+                     <h5 class="ms-3 mb-0 align-self-center">B2C Small Parcel & Courier</h5>
+                  </div>
+                  <p class="mt-4 text-start">HUB E-COM has established a dedicated import cross-border eCommerce team in
+                     Nanchang and Shenzhen.</p>
+               </div>
+            </div>
+         </div>
+
+      </div>
+   </section>
+
 
 
 
 
 
    <!-- ============================================================================== -->
+   <!------------------------ Context Section  -------------------->
+
+   <div class="container">
+      <div class="row my-5">
+         <div class="col-lg-6 col-12 my-3">
+            <h1 class="text-start mb-4">Call Us</h1>
+            <h4 class="text-start mb-5">or fill out the form and we'll be in touch as soon as possible.</h4>
+            <div class="d-flex flex-row mt-4">
+               <span class="bg-primary"><i class="fa-solid fa-phone p-3 fs-3 text-white"></i></span>
+               <p class="fw-semibold ms-4 mb-0">+44(0)208-979-7531</p>
+            </div>
+            <div class="d-flex flex-row mt-4">
+               <span class="bg-primary"><i class="fa-solid fa-envelope  p-3 fs-3 text-white"></i></i></span>
+               <div class="d-flex flex-column">
+                  <p class="fw-semibold ms-4 mb-2 text-start">info@hubsl.com</p>
+                  <p class="ms-4 mb-0 text-start">Don't hesitate to contact us!</p>
+               </div>
+            </div>
+         </div>
+         <div class="col-lg-6 col-12 mt-lg-0 mt-5">
+            <form class="row g-3">
+               <div class="col-md-6">
+                  <input type="text" class="form-control" id="validationDefault03" placeholder="Name" required>
+               </div>
+               <div class="col-md-6">
+                  <input type="text" class="form-control" id="validationDefault03" placeholder="Company" required>
+               </div>
+               <div class="col-md-6">
+                  <input type="email" class="form-control" id="validationDefault03" placeholder="Email Address"
+                     required>
+               </div>
+               <div class="col-md-6">
+                  <input type="text" class="form-control" id="validationDefault03" placeholder="Phone" required>
+               </div>
+               <div class="col-md-12">
+                  <textarea name="" class="form-control" id="validationDefault03" cols="30" rows="3"
+                     placeholder="How can we help ?" required></textarea>
+               </div>
+               <div class="col-md-12 d-flex capcha">
+                  <div style="float: left;">
+                     <span class="fs-1">6</span>
+                     <span class="px-2" style="font-size: 40px;">+</span>
+                     <span class="fs-1">14</span>
+                     <span class="px-2" style="font-size: 40px;">=</span>
+                  </div>
+                  <input type="email" class="form-control ms-3 quiz-box" id="validationDefault03" placeholder="?"
+                     required>
+               </div>
+               <div class="row luxury w-25 mt-4" style="padding: 0 3px !important;">
+                  <a class="btn btn-2 " type="btn" href="#">Submit</a>
+               </div>
+            </form>
+         </div>
+      </div>
+
+   </div>
+
+   <!-- ============================================================================== -->
+   <!------------------------ Headquater Section  -------------------->
+
+   <div class="container">
+      <div class="row my-5 justify-content-between">
+         <div class="col-lg-3 col-md-5 col-12 mt-5 mt-md-0">
+            <a class="navbar-brand" href="#"><img src="./assets/images/hub-ecom-logo.png" alt="" class="logo-img"></a>
+         </div>
+         <div class="col-lg-3 col-md-5 col-12 me-4 mt-5 mt-md-0">
+            <div class="d-flex flex-row">
+               <img src="./assets/images/headquoater.png" alt="" class="headquater-img align-self-center">
+               <div class="d-flex flex-column ms-3">
+                  <p class="fw-semibold mb-3 text-start">Headquarters</p>
+                  <p class="fw-semibold mb-3 text-start">HUB E-Com Logistics LTD. 6-9 The Square, Stockley Park,
+                     Uxbridge, England UB11 1FW, United Kingdom</p>
+                  <p class="fw-semibold mb-0 text-start text-nowrap">Tel: +44(0)208-979-7531</p>
+               </div>
+            </div>
+         </div>
+         <div class="col-lg-3 col-md-5 col-12  mt-5 mt-md-4 mt-lg-0">
+            <div class="d-flex flex-row">
+               <img src="./assets/images/live-chat.png" alt="" class="chat-img align-self-center">
+               <div class="d-flex flex-column ms-4">
+                  <p class="fw-semibold mb-3 text-start">Chat with us</p>
+                  <img src="./assets/images/we_chat_1.jpg" alt="" class="wechat-img">
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+   <!-- ============================================================================== -->
+   <!------------------------ Footer-link Section  -------------------->
+
+   <div class="container">
+      <div class="row py-5" style="align-items: start; justify-content: start;">
+
+         <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+            <h5 class="text-uppercase fw-bolder text-start">Comany Profile</h5>
+            <div class="d-flex underline align-items-center">
+               <hr class="hr m-0 ">
+               <span class="ms-1"><i class="fa-solid fa-circle"></i></span>
+            </div>
+            <div class="d-flex flex-column my-3 link-content text-start">
+               <a href="#">About Us</a>
+               <a href="#">Terms & Condition</a>
+            </div>
+         </div>
+
+         <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+            <h5 class="text-uppercase fw-bolder text-start">Division & Services</h5>
+            <div class="d-flex underline align-items-center">
+               <hr class="hr m-0 ">
+               <span class="ms-1"><i class="fa-solid fa-circle"></i></span>
+            </div>
+            <div class="d-flex flex-column my-3 link-content text-start">
+               <a href="#">Air Freight</a>
+               <a href="#">Sea Freight</a>
+               <a href="#">Railway & Road Freight</a>
+               <a href="#">Import Services</a>
+               <a href="#">Courier Services</a>
+               <a href="#">Cross Border E-Commerce</a>
+               <a href="#">Fulfilment by Amazon</a>
+               <a href="#">Warehouse Services</a>
+            </div>
+         </div>
+
+         <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+            <h5 class="text-uppercase fw-bolder text-start">HUB E-Com Links</h5>
+            <div class="d-flex underline align-items-center">
+               <hr class="hr m-0 ">
+               <span class="ms-1"><i class="fa-solid fa-circle"></i></span>
+            </div>
+            <div class="d-flex flex-column my-3 link-content text-start">
+               <a href="#">Our Offices</a>
+               <a href="#">News</a>
+               <a href="#">Customer Feedback</a>
+               <a href="#">Contact Us</a>
+            </div>
+         </div>
+
+         <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+            <h5 class="text-uppercase fw-bolder text-start">HUB E-Com Offices</h5>
+            <div class="d-flex underline align-items-center">
+               <hr class="hr m-0 ">
+               <span class="ms-1"><i class="fa-solid fa-circle"></i></span>
+            </div>
+            <div class="d-flex flex-column my-3 link-content text-start">
+               <a href="#">United Kingdom</a>
+               <a href="#">China</a>
+               <a href="#">India</a>
+            </div>
+         </div>
+
+      </div>
+   </div>
+
+
+   <!-- ============================================================================== -->
+   <!------------------------ Footer Section  -------------------->
+
+   <footer class="" style="background-color: #F8F8F8;">
+      <div class="container">
+         <div class="row py-3 justify-content-between">
+            <div class="col-lg-5 col-12">
+               <div class="footer-icon text-start pb-4">
+                  <a href="https://en-gb.facebook.com/pgslogisticsltd" class="" target="_blank"><span><i
+                           class="fa-brands fa-facebook-f"></i></span></a>
+
+                  <a href="https://www.instagram.com/pgslogisticsltd/" class="" target="_blank"><span><i
+                           class="fa-brands fa-instagram"></i></span></a>
+
+                  <a href="https://www.linkedin.com/company/parisi-grand-smooth-logistics-ltd" class=""
+                     target="_blank"><span><i class="fa-brands fa-linkedin-in"></i></span></a>
+               </div>
+               <div class="copyright text-start pt-0 pt-lg-3" style="line-height: 20px;">
+                  <p class="mb-0" style="font-size: 16px;">Copyright &#169; Hub E-Com Logistics Ltd.</p>
+                  <div class="d-flex flex-row mt-2">
+                     <p class="mb-0" style="font-size: 16px;">All rights reserved. </p>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-lg-5 col-12 text-start pt-4 pt-lg-0">
+               <h3 class="">HUB E-COM LOGISTICS LTD.</h3>
+
+               <div class="d-inline-flex mt-lg-5 mt-3  link-content text-start">
+                  <a class="" href="#" style="font-size: 16px;">Term & Condition</a>
+                  <div class="vr ms-2"></div>
+                  <a class=" ms-2" href="#" style="font-size: 16px;">Custom Feedback</a>
+                  <div class="vr ms-2"></div>
+                  <a class=" ms-2" href="./about" style="font-size: 16px;">Contact Us</a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+
+   <a href="#" class="to-top">
+      <span><i class="fa-solid fa-chevron-up"></i></span>
+   </a>
+
+
+
 
 
 
@@ -287,6 +609,18 @@
 
    <!-- Custom JS  -->
    <script src="./assets/js/index.js"></script>
+
+   <!-- Bootstrap Bundle and Popper  -->
+   <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+   </script> -->
+
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+   </script>
+   <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script> -->
+
+
 </body>
 
 </html>

@@ -1,62 +1,76 @@
-@media screen and (max-width:1599px) {
-
-}
+@media screen and (max-width:1599px) {}
 
 /* <!-- =================================================================== --> */
-@media screen and (max-width:1399px) {
-
-}
+@media screen and (max-width:1399px) {}
 
 /* <!-- =================================================================== --> */
 @media screen and (max-width:1199px) {
-   /* Slider CSS  */
-   header .item .cover .header-content{
+   header .item .cover .header-content {
       padding: 30px 40px;
       margin: 0 50px;
    }
-   /* .abc-services {
-   height: 538px;
-   } */
+
+   .capcha .quiz-box {
+      width: 58% !important;
+   }
 }
 
 /* <!-- =================================================================== --> */
 @media screen and (max-width:991px) {
-
+   .capcha .quiz-box {
+      width: 73% !important;
+   }
 }
 
 /* <!-- =================================================================== --> */
 @media screen and (max-width:767px) {
-   header .item .cover .header-content h1{
+   header .item .cover .header-content h1 {
       margin: 8px 5px;
    }
-   header .item .cover .header-content .line{
+
+   header .item .cover .header-content .line {
       width: 115%;
       height: 90%;
    }
-   header .item .cover .header-content p{
+
+   header .item .cover .header-content p {
       margin-bottom: 25px;
       width: 100% !important;
+   }
+
+   .capcha .quiz-box {
+      width: 66% !important;
    }
 }
 
 /* <!-- =================================================================== --> */
 @media screen and (max-width:575px) {
-   header .item .cover .header-content p{
+   header .item .cover .header-content p {
       margin: 15px 0;
    }
+
    .ifram-video iframe {
       height: 300px;
       width: 300px;
+   }
+   .capcha .quiz-box {
+      width: 55% !important;
    }
 }
 
 /* <!-- =================================================================== --> */
 @media screen and (max-width:425px) {
-   header .item .cover .header-content h1{
+   header .item .cover .header-content h1 {
       margin: 0;
    }
-   header .item .cover .header-content p{
+
+   header .item .cover .header-content p {
       margin: 18px 0;
       font-size: 14px;
    }
+
+   .capcha .quiz-box {
+      width: 50% !important;
+   }
+   .luxury .btn {padding: 10px 0;}
 }

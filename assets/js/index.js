@@ -25,3 +25,12 @@ $('.owl-carousel').owlCarousel({
     },
   },
 })
+
+// SCROLL TO TOP 
+$(window).scroll(function (e) {
+    if ($(this).scrollTop() > 0) {
+        $(".to-top").css("display", "block");
+    } else {
+        $(".to-top").css("display", "none");
+    }
+});
